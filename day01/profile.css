@@ -1,12 +1,12 @@
 .profile {
     width: 450px;
     border: 1px solid lightgray;
-    padding: 2rem;
     margin: 100px auto;
     border-radius: 8px;
 }
 .main{
     width: 100%;
+    padding: 2rem;
 }
 .profile h2 {
     font-weight: 400;
@@ -22,11 +22,11 @@
     object-fit: cover;
     border-radius: 50%;
     margin-right: 25%;
-    margin-block: 2rem;
+    margin-block: 2rem 1rem;
 }
 .profile .footer{
     border-top: 1px solid lightgray;
-    padding-top: 1rem;
+    padding: 1rem 2rem;
 }
 .profile .footer a{
     text-decoration: none; 
