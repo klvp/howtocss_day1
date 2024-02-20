@@ -1,0 +1,46 @@
+.login{
+    width: 280px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.login-title{
+    font-size: 3rem;
+}
+
+.subtle{
+    font-weight: bolder
+}
+
+.login input{
+    width: 100%;
+    padding: 16px 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+.login button{
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 60px;
+    margin-block: 1rem 2rem;
+}
+
+.option,.login a{
+    font-size: 14px;
+    color: black;
+}
+
+.low-opacity{
+    opacity: 0.8;
+}
+
+.login .footer{
+    font-size: small;
+    margin-top: 2rem;
+}
