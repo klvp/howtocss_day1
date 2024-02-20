@@ -1,0 +1,35 @@
+.profile {
+    width: 450px;
+    border: 1px solid lightgray;
+    padding: 2rem;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+.main{
+    width: 100%;
+}
+.profile h2 {
+    font-weight: 400;
+}
+
+.profile p {
+    opacity: 0.8;
+}
+
+.profile img {
+    width: 75px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 25%;
+    margin-block: 2rem;
+}
+.profile .footer{
+    border-top: 1px solid lightgray;
+    padding-top: 1rem;
+}
+.profile .footer a{
+    text-decoration: none; 
+    font-weight: 600;
+    color: #91B9F4; 
+}

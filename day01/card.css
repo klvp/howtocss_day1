@@ -1,0 +1,37 @@
+.card{
+    width: 400px;
+    border: 1px solid lightgray;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+.card-img{
+    width: 100%;
+}
+.card-img img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-content{
+    padding: 2rem
+}
+.card-content h1{
+    font-weight: 500;
+}
+.card-content h3,
+.card-content p{
+    opacity: 0.7;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.card-content [type="button"]{
+    color: #3079e7;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    background-color: white;
+}
